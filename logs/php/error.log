@@ -3,3 +3,6 @@
 [21-Apr-2025 10:17:56 UTC] PHP Warning:  Undefined variable $qsid in /Users/melainedewitte/Local Sites/plantysite/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 967
 [21-Apr-2025 10:17:56 UTC] PHP Warning:  Undefined variable $qsid in /Users/melainedewitte/Local Sites/plantysite/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 968
 [21-Apr-2025 10:17:56 UTC] PHP Warning:  Undefined variable $qsid in /Users/melainedewitte/Local Sites/plantysite/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 971
+[21-Apr-2025 11:29:19 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 31457312 bytes) in /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/class-wpdb.php on line 1757
+[21-Apr-2025 11:31:04 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 16133248 bytes) in /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/class-wpdb.php on line 2322
+[21-Apr-2025 11:31:23 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 16133248 bytes) in /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/class-wpdb.php on line 2322
