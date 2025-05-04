@@ -10,4 +10,13 @@ Version: 4.10.0.1745230676
 Updated: 2025-04-21 12:17:56
 
 */
+.link-admin {
+    line-height: 80px;
+}
+.link-admin a {
+    color: black;
+}
 
+.menu-link:nth-last-child(1) {
+    background-color: red;
+}

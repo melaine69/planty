@@ -72,7 +72,7 @@ $table_prefix = 'wp_';
 
 
 /* Add any custom values between this line and the "stop editing" line. */
-define('ALLOW_UNFILTERED_UPLOADS', true);
+
 
 
 /**
@@ -92,6 +92,7 @@ if ( ! defined( 'WP_DEBUG' ) ) {
 }
 
 define( 'WP_ENVIRONMENT_TYPE', 'local' );
+define('WP_MEMORY_LIMIT', '512M');
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */

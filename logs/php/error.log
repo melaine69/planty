@@ -6,3 +6,80 @@
 [21-Apr-2025 11:29:19 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 31457312 bytes) in /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/class-wpdb.php on line 1757
 [21-Apr-2025 11:31:04 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 16133248 bytes) in /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/class-wpdb.php on line 2322
 [21-Apr-2025 11:31:23 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 16133248 bytes) in /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/class-wpdb.php on line 2322
+[21-Apr-2025 11:57:26 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 5378784 bytes) in /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/class-wpdb.php on line 2322
+[21-Apr-2025 12:18:44 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_optimized_size_keys` successfully executed.
+[21-Apr-2025 12:18:44 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_mime_type` successfully executed.
+[21-Apr-2025 12:18:44 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_avif_with_zero_dimensions` successfully executed.
+[21-Apr-2025 12:18:50 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[21-Apr-2025 12:21:42 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[21-Apr-2025 12:22:26 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[21-Apr-2025 12:25:15 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[21-Apr-2025 12:27:03 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[21-Apr-2025 12:27:13 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[21-Apr-2025 12:27:18 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[21-Apr-2025 12:27:26 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[21-Apr-2025 12:27:31 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[21-Apr-2025 12:27:36 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[21-Apr-2025 12:27:41 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[21-Apr-2025 12:27:47 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[21-Apr-2025 12:27:52 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[21-Apr-2025 12:27:57 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[21-Apr-2025 12:28:02 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[21-Apr-2025 12:28:07 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[21-Apr-2025 12:28:12 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[21-Apr-2025 12:28:17 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[21-Apr-2025 12:28:22 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[21-Apr-2025 12:28:27 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[21-Apr-2025 12:28:32 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[21-Apr-2025 12:31:46 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : invalid_schedule. Message d’erreur : L’évènement planifié n’existe pas.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[25-Apr-2025 09:16:18 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_extra_item_to_nav_menu(), 1 passed in /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/class-wp-hook.php on line 326 and exactly 2 expected in /Users/melainedewitte/Local Sites/plantysite/app/public/wp-content/themes/astra-child/functions.php:2
+Stack trace:
+#0 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/class-wp-hook.php(326): add_extra_item_to_nav_menu('<li id="menu-it...')
+#1 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/nav-menu-template.php(272): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-content/themes/astra/inc/builder/type/header/menu/class-astra-header-menu-component.php(124): wp_nav_menu(Object(stdClass))
+#4 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-content/themes/astra/inc/builder/markup/class-astra-builder-header.php(125): Astra_Header_Menu_Component::menu_markup(1, 'desktop')
+#5 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/class-wp-hook.php(324): Astra_Builder_Header->__call('menu_1', Array)
+#6 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-content/themes/astra/template-parts/header/builder/components.php(44): do_action('astra_header_me...', 'desktop')
+#9 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/template.php(812): require('/Users/melained...')
+#10 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/template.php(745): load_template('/Users/melained...', false, Array)
+#11 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#12 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-content/themes/astra/inc/core/builder/class-astra-builder-helper.php(1103): get_template_part('template-parts/...', '', Array)
+#13 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-content/themes/astra/inc/builder/markup/class-astra-builder-header.php(235): Astra_Builder_Helper::render_builder_markup('primary', 'right', 'desktop', 'header')
+#14 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/class-wp-hook.php(324): Astra_Builder_Header->render_column('primary', 'right')
+#15 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#16 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#17 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-content/themes/astra/template-parts/header/builder/header-row.php(84): do_action('astra_render_he...', 'primary', 'right')
+#18 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/template.php(812): require('/Users/melained...')
+#19 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/template.php(745): load_template('/Users/melained...', false, Array)
+#20 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#21 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-content/themes/astra/inc/builder/markup/class-astra-builder-header.php(279): get_template_part('template-parts/...', 'row', Array)
+#22 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/class-wp-hook.php(324): Astra_Builder_Header->primary_header('')
+#23 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#24 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#25 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-content/themes/astra/template-parts/header/builder/desktop-builder-layout.php(27): do_action('astra_primary_h...')
+#26 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/template.php(812): require('/Users/melained...')
+#27 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/template.php(745): load_template('/Users/melained...', false, Array)
+#28 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#29 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-content/themes/astra/inc/builder/markup/class-astra-builder-header.php(242): get_template_part('template-parts/...')
+#30 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/class-wp-hook.php(324): Astra_Builder_Header->desktop_header('')
+#31 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#32 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#33 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-content/themes/astra/inc/core/theme-hooks.php(157): do_action('astra_masthead')
+#34 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-content/themes/astra/inc/markup-extras.php(1150): astra_masthead()
+#35 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/class-wp-hook.php(324): astra_header_markup('')
+#36 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#37 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#38 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-content/themes/astra/inc/core/theme-hooks.php(143): do_action('astra_header')
+#39 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-content/themes/astra/header.php(62): astra_header()
+#40 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/template.php(810): require_once('/Users/melained...')
+#41 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/template.php(745): load_template('/Users/melained...', true, Array)
+#42 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#43 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-content/themes/astra/page.php(20): get_header()
+#44 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/template-loader.php(106): include('/Users/melained...')
+#45 /Users/melainedewitte/Local Sites/plantysite/app/public/wp-blog-header.php(19): require_once('/Users/melained...')
+#46 /Users/melainedewitte/Local Sites/plantysite/app/public/index.php(17): require('/Users/melained...')
+#47 {main}
+  thrown in /Users/melainedewitte/Local Sites/plantysite/app/public/wp-content/themes/astra-child/functions.php on line 2
