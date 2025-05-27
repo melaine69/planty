@@ -10,13 +10,311 @@ Version: 4.10.0.1745230676
 Updated: 2025-04-21 12:17:56
 
 */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#ast-scroll-top {
+    display: none!important;
+}
+a {
+    font-weight: 400;
+}
+
+.menu-item-95 a:hover, .link-admin a, .ast-footer-copyright p a:hover {
+    color: black!important;
+}
+a:hover {
+	font-weight: 700;
+}
+.menu-link:nth-child(1), .menu-link:nth-child(2) {
+    color: black!important;
+}
+/* Footer */
+.site-below-footer-wrap[data-section="section-below-footer-builder"] {
+    border: none;
+    padding: 0;
+}
+.mentions-legales {
+    color: black;
+    font-family: 'Syne';
+    font-weight: 400;
+}
+
+/* Navbar */
+.ast-mobile-header-content {
+    border-top: none;
+}
 .link-admin {
     line-height: 80px;
 }
-.link-admin a {
-    color: black;
+
+@media screen and (min-width: 1025px) {
+    .main-header-menu {
+        gap: 40px;
+    }
 }
 
-.menu-link:nth-last-child(1) {
-    background-color: red;
+.main-header-menu #menu-item-98 {
+    background-color: #DC9F96;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.main-header-menu #menu-item-98:hover {
+    background-color:#C02E44;
+}
+.main-header-menu #menu-item-98 a{
+    color: white!important;
+   /*padding: 40px 60px;*/
+}
+.ast-builder-menu-mobile ul li a {
+    font-family: "Syne";
+    color: red;
+}
+/* Home page */
+
+.wrap-canette {
+    padding-top: 0!important;
+}
+
+.canette {
+    background: url('assets/feuilles-left.png'), url('assets/feuilles-right.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom 50% left 32%, bottom 50% right 28%;
+    
+}
+@media (max-width: 1024px) {
+    .canette {
+        background-size: 200px;
+    }
+}
+@media (max-width: 768px) {
+    .canette {
+        background-size: 90px;
+    }
+}
+.block-fruit {
+    flex-wrap: wrap!important;
+}
+
+@media (max-width: 1024px) {
+    .card-avis {
+        width: 30%!important;
+    }
+    .block-fruit {
+        justify-content: center!important;
+    }
+    .card-fruits {
+        width: 40%!important;
+    }
+}
+@media (max-width: 768px) {
+    .card-avis {
+        width: 25%!important;
+    }
+}
+.block-fruit img:hover {
+    opacity: 0.5;
+}
+/* Page commander */
+/* Form "Commander" */
+
+.wrap_cards {
+    width: 100%;
+}
+
+.row_cards {
+    display: flex;
+    gap: 30px;
+    padding: 0;
+}
+@media (min-width: 1025px) {
+    .card {
+      width: 192px;
+    }
+  }
+  @media (max-width: 1024px) {
+    .row_cards {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .card {
+      width: 45%; /* ajusté selon nombre */
+    }
+  }
+  
+@media (max-width: 768px) {
+    .row_cards {
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 100%;
+    }
+}
+    
+.image_wrap {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.image_wrap img {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+
+.title_card {
+    color: white;
+    font-family: 'Syne';
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    width: 175px;
+    text-align: center;
+}
+
+.title_card.long {
+    width: 150px;
+}
+@media (max-width: 768px) {
+    .title_card.long {
+        width: 100%;
+    }
+}
+
+.card input[type="number"] {
+    width: 39px;
+    border-radius: 0px;
+    display: block;
+    margin: 10px auto 0;
+}
+.card input::placeholder {
+    color: black;
+  }
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Form "Informations" */
+.form_bottom {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+@media (max-width: 1024px) {
+    .form_bottom {
+        gap: 50px;
+    }
+   
+}
+@media (max-width: 1024px) {
+    .form_bottom {
+        gap: 20px;
+    }
+   
+}
+.title_form {
+    font-family: "Syne";
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: -20px;
+}
+@media (max-width: 768px) {
+    .title_form {
+        font-size: 16px;
+    }
+}
+.form_bottom::after {
+    content: "";
+    position: absolute;
+    height: 447px;
+    width: 1px;
+    background-color: white;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+}
+@media (max-width: 768px) {
+    .form_bottom::after {
+        height: 324px;
+    }
+}
+
+form label {
+    font-family: "Syne";
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+@media (max-width: 768px) {
+    form label {
+        font-size: 16px;
+    }
+}
+input[type="text"], input[type="email"] {
+    height: 71px;
+}
+@media (max-width: 768px) {
+    input[type="text"], input[type="email"] {
+        height: auto;
+    }
+}
+input[type="submit"] {
+    background-color: #E0B9B4;
+    font-family: "Syne";
+    font-weight: 400;
+    display: block;
+    margin: 0 auto;
+}
+
+
+input[type="submit"]:hover {
+    background-color:#C02E44;
+}
+/* Page Nous rencontrer */
+/* Section avec icons */
+/* Page commander */
+.img_rencontrer {
+    transform: scale(2);
+}
+.form_title_contact {
+    color: black;
+}
+textarea {
+    z-index: 1;
+    position: relative;
+}
+.fleur {
+    position: absolute;
+    bottom: 10%;
+    left: -22%;
+    z-index: 0;
+}
+@media (max-width: 768px) {
+    .fleur {
+        position: absolute;
+        bottom: 10%;
+        left: -9%;
+        z-index: 0;
+        transform: rotate(-40deg);
+    }
+}
+.submit_envoyer {
+    width: 198px;
+    margin-top: -70px!important;
+}
+@media (max-width: 768px) {
+    .submit_envoyer {
+        margin-top: 0!important;
+    }
 }

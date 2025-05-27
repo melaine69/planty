@@ -12,16 +12,6 @@ function add_extra_item_to_nav_menu($items, $args) {
 }
 add_filter('wp_nav_menu_items', 'add_extra_item_to_nav_menu', 10, 2);
 
-//afficher l'id du headeradd_action('wp_footer', function() {
-    add_action('wp_footer', function() {
-        $locations = get_nav_menu_locations();
-        $menus = wp_get_nav_menus();
-    
-        foreach ($locations as $location => $menu_id) {
-            echo '<!-- Location: ' . $location . ' → Menu ID: ' . $menu_id . ' -->';
-        }
-    });    
-
 // Exit if accessed directly
 if ( !defined( 'ABSPATH' ) ) exit;
 

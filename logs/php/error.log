@@ -83,3 +83,12 @@ Stack trace:
 #46 /Users/melainedewitte/Local Sites/plantysite/app/public/index.php(17): require('/Users/melained...')
 #47 {main}
   thrown in /Users/melainedewitte/Local Sites/plantysite/app/public/wp-content/themes/astra-child/functions.php on line 2
+[04-May-2025 08:20:37 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 16133248 bytes) in /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/class-wpdb.php on line 2322
+[04-May-2025 08:21:15 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 16133248 bytes) in /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/class-wpdb.php on line 2322
+[04-May-2025 08:21:42 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 16133440 bytes) in /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/class-wpdb.php on line 2351
+[04-May-2025 09:58:06 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32272784 bytes) in /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/formatting.php on line 5491
+[04-May-2025 09:59:54 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32272784 bytes) in /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/formatting.php on line 5491
+[04-May-2025 10:18:14 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 21514160 bytes) in /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/formatting.php on line 5491
+[04-May-2025 15:31:03 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32272784 bytes) in /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/formatting.php on line 5491
+[11-May-2025 07:59:01 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 16133248 bytes) in /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/class-wpdb.php on line 2322
+[11-May-2025 08:07:16 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 16133248 bytes) in /Users/melainedewitte/Local Sites/plantysite/app/public/wp-includes/class-wpdb.php on line 2322
