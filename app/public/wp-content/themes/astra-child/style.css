@@ -18,6 +18,10 @@ html, body {
 #ast-scroll-top {
     display: none!important;
 }
+.site-primary-header-wrap {
+    padding-right: 0!important;
+}
+
 a {
     font-weight: 400;
 }
@@ -86,14 +90,10 @@ a:hover {
 }
 @media (max-width: 1024px) {
     .canette {
-        background-size: 200px;
+        background-size: 25%!important;
     }
 }
-@media (max-width: 768px) {
-    .canette {
-        background-size: 90px;
-    }
-}
+
 .block-fruit {
     flex-wrap: wrap!important;
 }
@@ -188,18 +188,17 @@ a:hover {
     }
 }
 
-.card input[type="number"] {
-    width: 39px;
+input.wpcf7-number {
+    width: 45px!important;
     border-radius: 0px;
     display: block;
     margin: 10px auto 0;
-}
-.card input::placeholder {
+    }
+ input.wpcf7-number::placeholder {
     color: black;
   }
-
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
@@ -278,7 +277,7 @@ input[type="submit"] {
 }
 
 
-input[type="submit"]:hover {
+input[type="submit"]:hover,  input[type="submit"]:focus{
     background-color:#C02E44;
 }
 /* Page Nous rencontrer */
