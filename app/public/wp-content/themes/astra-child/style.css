@@ -93,7 +93,11 @@ a:hover {
         background-size: 25%!important;
     }
 }
-
+@media (max-width: 765px) {
+    .canette {
+        background-size: 30%!important;
+    }
+}
 .block-fruit {
     flex-wrap: wrap!important;
 }
@@ -120,38 +124,33 @@ a:hover {
 /* Page commander */
 /* Form "Commander" */
 
-.wrap_cards {
-    width: 100%;
-}
-
 .row_cards {
     display: flex;
     gap: 30px;
     padding: 0;
 }
-@media (min-width: 1025px) {
-    .card {
-      width: 192px;
-    }
-  }
-  @media (max-width: 1024px) {
-    .row_cards {
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-    .card {
-      width: 45%; /* ajusté selon nombre */
-    }
-  }
-  
+.card {
+    width: 100%;
+}
 @media (max-width: 768px) {
     .row_cards {
-        flex-wrap: wrap;
+      flex-wrap: wrap;
     }
     .card {
-        width: 100%;
+      width: 100%; 
     }
-}
+  }
+
+@media (max-width: 1024px) {
+    .row_cards {
+      flex-wrap: wrap;
+    }
+    .card {
+        width: 45%;
+    }
+  }
+
+
     
 .image_wrap {
     position: relative;
@@ -208,29 +207,16 @@ input[type=number]::-webkit-inner-spin-button {
     justify-content: space-between;
     position: relative;
 }
+@media (max-width: 768px) {
+    .form_bottom {
+        flex-direction: column;
+    }
+}
 @media (max-width: 1024px) {
     .form_bottom {
         gap: 50px;
     }
    
-}
-@media (max-width: 1024px) {
-    .form_bottom {
-        gap: 20px;
-    }
-   
-}
-.title_form {
-    font-family: "Syne";
-    color: white;
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: -20px;
-}
-@media (max-width: 768px) {
-    .title_form {
-        font-size: 16px;
-    }
 }
 .form_bottom::after {
     content: "";
@@ -243,11 +229,34 @@ input[type=number]::-webkit-inner-spin-button {
     transform: translateX(-50%);
     display: block;
 }
+
 @media (max-width: 768px) {
+    .form_bottom {
+        gap: 50px;
+    }
     .form_bottom::after {
-        height: 324px;
+        width: 324px;
+        height: 1px;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
     }
 }
+
+.title_form {
+    font-family: "Syne";
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: -20px;
+}
+@media (max-width: 768px) {
+    .title_form {
+        font-size: 16px;
+    }
+}
+
+
 
 form label {
     font-family: "Syne";
@@ -282,7 +291,6 @@ input[type="submit"]:hover,  input[type="submit"]:focus{
 }
 /* Page Nous rencontrer */
 /* Section avec icons */
-/* Page commander */
 .img_rencontrer {
     transform: scale(2);
 }
